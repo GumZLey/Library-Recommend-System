@@ -13,6 +13,14 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 ## Project Setup
 
 ```sh
+git clone https://github.com/GumZLey/Library-Recommend-System.git
+```
+
+```sh
+cd Book-Recommendation
+```
+
+```sh
 npm install
 ```
 
@@ -22,14 +30,18 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compile Flask
 
 ```sh
-npm run build
+cd flask
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Install Dependency
 
 ```sh
-npm run lint
+pip install {Everything that required}
+```
+
+```sh
+python app.py
 ```
